@@ -17,7 +17,7 @@ RUN bash -c "curl -Ls 'https://github.com/aws/aws-sam-cli/releases/latest/downlo
 # AWS CDK
 RUN bash -c "npm install -g aws-cdk"
 
-AWS CloudFormation CLI
+#AWS CloudFormation CLI
 RUN bash -c "pip install cloudformation-cli cloudformation-cli-java-plugin cloudformation-cli-go-plugin cloudformation-cli-python-plugin cloudformation-cli-typescript-plugin"
 
 # Red Hat OpenShift
